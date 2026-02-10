@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: factory-metrics-ms
+  title: Factory Metrics MS
+  description: Microservice Spring Boot exposant des métriques par projet
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: backstage-techdocs-simulation
+  system: examples - poc
+  lifecycle: experimental
+# utilisé pour simuler techdocs, mais en théorie, ceci doit se trouver dans un repository GitLab pour que le plugin backstage-gitlab fonctionne correctement.
+# Pour une vraie utilisation, créer un repository GitLab, y ajouter ce fichier et configurer le plugin backstage-gitlab avec les bonnes valeurs (url, token, etc.)
