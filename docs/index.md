@@ -1,4 +1,4 @@
-# Factory Metrics MS
+# # Factory Metrics MS
 
 ## Endpoint
 
@@ -23,3 +23,4 @@ sequenceDiagram
 ```json
 {"projectId":"12345","rows":[{"bucket_day":"2025-12-16","metric_key":"pipeline_duration_sec_p50","value":310.0,"unit":"s"}]}
 ```
+ça me soule....
